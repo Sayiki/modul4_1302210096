@@ -7,9 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        KodeBuah codeBuah = new KodeBuah();
         KodeBuah.Buah buah = KodeBuah.Buah.Apel;
+        KodeBuah.Buah buah2 = KodeBuah.Buah.Alpukat;
         String kode = KodeBuah.getKodeBuah.GetKodeBuah(buah);
+        String kode2 = KodeBuah.getKodeBuah.GetKodeBuah(buah2);
         Console.WriteLine(buah + " " + kode);
+        Console.WriteLine(buah2 + " " + kode2);
     }
 }
